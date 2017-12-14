@@ -20,8 +20,8 @@ int main()
   if (5 < 10) {
     printf("5 is less than 10\n");
   }
-  else if (TRUE) {
-    printf("This would be executed\n");
+  else if (1) {
+    printf("t r u e\n");
   }
   else {
     printf("Last chance\n");

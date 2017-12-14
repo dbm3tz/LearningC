@@ -13,9 +13,12 @@ int main()
   printf("Hello World\n");
 
   /* some primitive types */
-  int x;
-  char letter;
+  int b;
+  short c;
+  long d;
   float f;
+  double g;
+  char h;
 
   int number;
   /* Print to console */
@@ -25,7 +28,7 @@ int main()
   scanf("%d", &number);
 
   /* Print integer */
-  printf("You entered %d", number);
+  printf("You entered %d\n", number);
 
   /* Waits for user to hit enter before reading character */
   getchar();
